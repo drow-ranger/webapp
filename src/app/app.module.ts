@@ -14,6 +14,12 @@ import { HeaderComponent } from './header/header.component';
 import { SocialComponent } from './social/social.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ConfigService } from './config.service';
+import { BlogComponent } from './blog/blog.component';
+import { PostComponent } from './post/post.component';
+import { ArticleComponent } from './article/article.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { PaginationComponent } from './pagination/pagination.component';
+import { PagerService } from './pager.service';
 
 @NgModule({
   declarations: [
@@ -27,13 +33,18 @@ import { ConfigService } from './config.service';
     PricingComponent,
     HeaderComponent,
     SocialComponent,
-    NavigationComponent
+    NavigationComponent,
+    BlogComponent,
+    PostComponent,
+    ArticleComponent,
+    NotfoundComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ConfigService, PagerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -90,7 +90,18 @@ export const configuration = {
     ],
     blog: {
         tagline: 'MY BLOG',
-        title: 'Thoughts become things..'
-        
+        title: 'Thoughts become things..',
+        posts: [
+            {id: 1, title: 'The first article', author: 'DN', image: 'gallery-image-1.jpg', publishdate: '2018-12-07T07:22Z', excert: 'this is article boys'},
+            {id: 2, title: 'The second article', author: 'DN', image: 'gallery-image-2.jpg', publishdate: '2018-12-07T07:22Z', excert: 'this is article boys'},
+            {id: 3, title: 'The third article', author: 'DN', image: 'gallery-image-3.jpg', publishdate: '2018-12-07T07:22Z', excert: 'this is article boys'},
+            {id: 4, title: 'The fourth article', author: 'DN', image: 'gallery-image-4.jpg', publishdate: '2018-12-07T07:22Z', excert: 'this is article boys'},
+            {id: 5, title: 'The fifth article', author: 'DN', image: 'gallery-image-5.jpg', publishdate: '2018-12-07T07:22Z', excert: 'this is article boys'},
+            {id: 6, title: 'The sixth article', author: 'DN', image: 'gallery-image-1.jpg', publishdate: '2018-12-07T07:22Z', excert: 'this is article boys'},
+            {id: 7, title: 'The seven article', author: 'DN', image: 'gallery-image-2.jpg', publishdate: '2018-12-07T07:22Z', excert: 'this is article boys'},
+            {id: 8, title: 'The eight article', author: 'DN', image: 'gallery-image-3.jpg', publishdate: '2018-12-07T07:22Z', excert: 'this is article boys'},
+            {id: 9, title: 'The nine article', author: 'DN', image: 'gallery-image-4.jpg', publishdate: '2018-12-07T07:22Z', excert: 'this is article boys'},
+            {id: 10, title: 'The ten article', author: 'DN', image: 'gallery-image-5.jpg', publishdate: '2018-12-07T07:22Z', excert: 'this is article boys'} 
+        ]
     }
 };
